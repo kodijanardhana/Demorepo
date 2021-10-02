@@ -3,22 +3,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Code Build!..' 
+                echo 'Code Build!...' 
             }
         }
         stage('Test') {
             steps {
-                echo 'Code Test!..' 
+                echo 'Code Test!...' 
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Code Deploy!..' 
+                echo 'Code Deploy!...' 
             }
         }
         stage('Release') {
             steps {
-                echo 'Code Release!..' 
+                echo 'Code Release!...' 
             }
         }
     }
